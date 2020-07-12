@@ -23,3 +23,12 @@ def nyc_pigeon_organizer(data)
   
   pigeon_list
 end
+
+pigeon_data = {
+
+# |outer_key||-------------------- outer_value -------------------|
+#             inner_key => inner_value,  inner_key => inner_value
+  :color => { :brown    => ["Luca"],     :black    => ["Lola"] },
+  :gender => { :male    => ["Luca"],     :female   => ["Lola"] },
+  :lives => { "Central Park" => ["Lola"], "Library" => ["Luca"] }
+}
